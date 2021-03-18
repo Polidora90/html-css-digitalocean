@@ -1,3 +1,30 @@
+main > section {
+    padding: 50px 0;
+}
+
+.text-white {
+    color: white
+}
+
+/* header */
 .nav-logo {
     max-height: 25px;
+}
+
+.my-navbar-left {
+    padding-left: 100px;
+}
+
+.my-navbar {
+    margin-bottom: 0;
+}
+
+.my-navbar a {
+    color: #031c4e;
+}
+
+/* hero section */
+.hero-section {
+    background-image: url(../img/bg-banner-home.jpg);
+    background-size: cover;
 }
