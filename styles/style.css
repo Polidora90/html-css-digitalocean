@@ -47,3 +47,9 @@ main > section {
 .my-logo-container img {
     height: 100%;
 }
+
+/* utility classes */
+.visible-element {
+    height: 200px;
+    border: 1px solid black;
+}
