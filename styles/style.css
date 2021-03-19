@@ -78,7 +78,25 @@ main > section {
     background-color: #006aff;
 }
 
+.my-all-slider-container {
+    min-height: 650px;
+}
 
+.my-arrow-left,
+.my-arrow-right,
+.my-img-slider-container {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.my-arrow {
+    font-size: 50px;
+}
+
+.my-img-slider-container {
+    padding: 0 20px;
+}
 /* utility classes */
 .visible-element {
     min-height: 200px;
@@ -88,3 +106,4 @@ main > section {
 .h-200 {
     min-height: 200px;
 }
+
