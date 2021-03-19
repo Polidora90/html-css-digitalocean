@@ -60,6 +60,25 @@ main > section {
     border-radius: 0;
 }
 
+/* slider 1 */
+.my-img {
+    display: inline-block;
+}
+
+.my-circle {
+    display: inline-block;
+    border: 1px solid #006aff;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+
+}
+
+.my-blue-circle {
+    background-color: #006aff;
+}
+
+
 /* utility classes */
 .visible-element {
     min-height: 200px;
