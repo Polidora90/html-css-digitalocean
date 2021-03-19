@@ -62,7 +62,7 @@ main > section {
 
 /* slider 1 */
 .my-img {
-    display: inline-block;
+    width: 100%;
 }
 
 .my-circle {
@@ -79,7 +79,7 @@ main > section {
 }
 
 .my-all-slider-container {
-    min-height: 650px;
+    width: 70%;
 }
 
 .my-arrow-left,
@@ -90,11 +90,21 @@ main > section {
     vertical-align: middle;
 }
 
-.my-arrow {
-    font-size: 50px;
+.my-arrow-right,
+.my-arrow-left {
+    width: 9%;
 }
 
 .my-img-slider-container {
+    width: 80%;
+}
+
+/* .my-arrow {
+    font-size: 50px;
+} */
+
+.my-img-slider-container {
+
     padding: 0 20px;
 }
 
