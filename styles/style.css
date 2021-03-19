@@ -97,6 +97,21 @@ main > section {
 .my-img-slider-container {
     padding: 0 20px;
 }
+
+/* customers */
+.customer-section {
+    background-color: #003fbb;
+}
+
+/* customers tab */
+.my-table tr:first-child>td {
+    border-top: 0;
+}
+
+.text-lightblue {
+    color: #a7b9e4;
+}
+
 /* utility classes */
 .visible-element {
     min-height: 200px;
