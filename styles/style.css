@@ -6,6 +6,14 @@ main > section {
     color: white
 }
 
+.text-grey {
+    color: #77839d;
+}
+
+.bg-lightgrey {
+    background-color: #f3f5f9;
+}
+
 /* header */
 .nav-logo {
     max-height: 25px;
@@ -27,4 +35,15 @@ main > section {
 .hero-section {
     background-image: url(../img/bg-banner-home.jpg);
     background-size: cover;
+}
+
+/* logo banner */
+.my-logo-container {
+    /* display: inline-block; */
+    height: 120px;
+    /* padding: 0 15px; */
+}
+
+.my-logo-container img {
+    height: 100%;
 }
