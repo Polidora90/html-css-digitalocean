@@ -14,6 +14,10 @@ main > section {
     background-color: #f3f5f9;
 }
 
+.bg-white {
+    background-color: white;
+}
+
 /* header */
 .nav-logo {
     max-height: 25px;
@@ -86,7 +90,6 @@ main > section {
 .my-arrow-right,
 .my-img-slider-container {
     display: inline-block;
-    height: 100%;
     vertical-align: middle;
 }
 
@@ -97,6 +100,10 @@ main > section {
 
 .my-img-slider-container {
     width: 80%;
+}
+
+.my-arrow {
+    font-size: 30px;
 }
 
 /* .my-arrow {
