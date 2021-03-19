@@ -48,8 +48,24 @@ main > section {
     height: 100%;
 }
 
+/* deploy and scale */
+.my-li-item {
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.my-li-item:first-child,
+.my-li-item:last-child {
+    border-radius: 0;
+}
+
 /* utility classes */
 .visible-element {
-    height: 200px;
+    min-height: 200px;
     border: 1px solid black;
+}
+
+.h-200 {
+    min-height: 200px;
 }
