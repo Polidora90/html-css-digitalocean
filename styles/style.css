@@ -19,6 +19,10 @@ footer {
     color: #bbcdff;
 }
 
+.text-darkblue {
+    color: #031c4e;
+}
+
 .underline-on {
     text-decoration: underline;
 }
@@ -122,6 +126,13 @@ footer {
 }
 
 /* slider 1 */
+.slider-1 h2,
+.features h2,
+.slider-2 h2,
+.blue-banner h2 {
+    padding-bottom: 15px;
+}
+
 .my-img {
     width: 100%;
 }
@@ -141,6 +152,7 @@ footer {
 
 .my-all-slider-container {
     width: 70%;
+    margin-top: 65px;
 }
 
 .my-arrow-left,
@@ -163,15 +175,18 @@ footer {
     font-size: 30px;
 }
 
-/* .my-arrow {
-    font-size: 50px;
-} */
+.my-arrow:hover {
+    color: #6f7b97
+}
 
 .my-img-slider-container {
 
     padding: 0 20px;
 }
 
+.features-row {
+    padding-bottom: 30px;
+}
 
 /* customers tab */
 .my-table tr:first-child>td {
@@ -182,18 +197,61 @@ footer {
     color: #a7b9e4;
 }
 
+.my-table a {
+    color: #00d1d1;
+    font-weight: bold;
+}
+
+/* slider 2 */
+.slider-2 .my-img-text-container {
+    padding: 70px 0;
+}
+
+.slider-2 .my-img-text-container img {
+    padding-bottom: 15px;
+}
+
+.cerchiolini {
+    padding-top: 30px;
+}
+
+/* get started */
+.my-light-btn {
+    color: #006aff;
+    font-weight: bold;
+}
+
 /* footer */
 footer ul {
     list-style-type: none;
 }
 
-/* utility classes */
-.visible-element {
-    min-height: 200px;
-    border: 1px solid black;
+
+footer .logo-container {
+    max-width: 40px;
+    margin-bottom: 5px;
 }
 
-.h-200 {
-    min-height: 200px;
+footer ul>li:first-of-type {
+    color: white;
 }
 
+footer ul a {
+    color: #a7b9e4;
+}
+
+.fa {
+    font-size: 20px;
+    padding: 10px 10px 0 0;
+}
+
+/* shark */
+
+.shark {
+    max-width: 50px;
+    background-color: #006aff;
+    padding: 5px 0;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
