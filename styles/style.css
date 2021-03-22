@@ -48,10 +48,6 @@ footer {
     max-height: 25px;
 }
 
-.my-navbar-left {
-    padding-left: 100px;
-}
-
 .my-navbar {
     margin-bottom: 0;
 }
@@ -67,6 +63,10 @@ footer {
 .my-nav-btn {
     color: #589cff;
     border: 1px solid #589cff;
+}
+
+.my-nav>li>a {
+    padding: 10px 3px;
 }
 
 /* hero section */
@@ -93,20 +93,18 @@ footer {
 
 .my-google-btn {
     background-image: url(../img/google-icon.png);
-    background-size: contain;
     background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: left;
+    background-position-x: 3px;
 }
 
 
 /* logo banner */
 .my-logo-container {
-    /* display: inline-block; */
-    height: 120px;
-    /* padding: 0 15px; */
-}
-
-.my-logo-container img {
-    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 45px;
 }
 
 /* deploy and scale */
@@ -302,4 +300,31 @@ footer ul a {
 .pop-up-number span {
     font-size: 10px;
     vertical-align: top;
+}
+
+@media screen and (min-width: 480px) {
+    .my-logo-container {
+        width: 74px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .my-logo-container {
+        width: 110px;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    
+    .my-navbar-left {
+        padding-left: 100px;
+    }
+
+     .my-nav>li>a {
+        padding: 10px 15px;
+    }
+
+    .my-logo-container {
+        width: 130px;
+    }
 }
