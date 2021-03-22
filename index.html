@@ -13,32 +13,30 @@
 
     <header>
         <!-- navbar -->
-        <!-- mobile e tablet logo e hamburger -->
         <!-- COME FAR COLLASSARE LA NAVBAR IN SM?? -->
         <nav class="navbar my-navbar">
             <div class="container">
               <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <button type="button" class="navbar-toggle collapsed">
                     <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span class="icon-bar my-icon-bar"></span>
+                    <span class="icon-bar my-icon-bar"></span>
+                    <span class="icon-bar my-icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="#">
                         <img src="img/logo.png" class="nav-logo" alt="brand">
                     </a>
                 </div>
           
-              <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav my-navbar-left">
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle">Products <span class="caret"></span></a>
                         </li>
                         <li class="active"><a href="#">Customers<span class="sr-only">(current)</span></a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle">Community <span class="caret"></span></a>
                         </li>
                         <li><a href="#">Pricing</a></li>
                     
@@ -47,10 +45,10 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#">Docs</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle">Support <span class="caret"></span></a>
                         </li>
                         <li><a href="#">Login</a></li>
-                        <li><button type="button" class="btn btn-default navbar-btn">Sign Up</button></li>
+                        <li><button type="button" class="btn btn-default navbar-btn my-nav-btn">Sign Up</button></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -67,13 +65,13 @@
                     <div class="col-sm-7">
                         <div class="hero-text text-white">
                             <h1><strong>The simplest cloud platform for developers & teams</strong></h1>
-                            <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastucture easy for teams and business, whether you're running one virtual machine or thousand.</p>
+                            <p class="lead text-lightblue">Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastucture easy for teams and business, whether you're running one virtual machine or thousand.</p>
                         </div>
                     </div>
                     <div class="col-sm-5">
                         <div class="panel panel-default">
                             <div class="panel-body text-center">
-                                <h3 class="text-center"><strong>Deploy your app in seconds. <br> Get started now.</strong></h3>
+                                <h3 class="text-center"><strong>Deploy your app in seconds.<br><span class="text-blue">Get started now.</span></strong></h3>
                                 <form>
                                     <div class="form-group">
                                       <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
@@ -82,9 +80,9 @@
                                       <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                                     </div>
                                 </form>
-                                <button type="button" class="btn btn-primary btn-lg btn-block btn-sm">Create your account</button>
-                                <button type="button" class="btn btn-default btn-lg btn-block btn-sm">Sign up with Google</button>
-                                <p>By signin up you agree to the <a href="#">Therme of Service</a></p>
+                                <button type="button" class="btn btn-primary btn-lg btn-block btn-sm my-hero-btn">Create your account</button>
+                                <button type="button" class="btn btn-default btn-lg btn-block btn-sm my-google-btn">Sign up with Google</button>
+                                <p>By signin up you agree to the <a href="#" class="text-blue underline-on">Therme of Service</a></p>
                             </div>
                         </div>
                     </div>
@@ -118,20 +116,20 @@
                         </div>
                     </div>
                 </div>
-                <a href="#">View customer stories &gt;</a>
+                <a href="#" class="text-blue"><strong>View customer stories &gt;</strong></a>
             </div>
         </section>
 
         <!-- DEPLOY AND SCALE -->
-        <section>
+        <section class="section-2">
             <div class="container">
-                <div class="text-center">
+                <div class="text-center section-2-text">
                     <h2><strong>Deploy and scale seamlessy</strong></h2>
-                    <p class="lead">Our optimized confuguration process saves your team time when running and scaling distributed applications, Al & machine learning workloads, hosted services, client websites, or CI/CD enviroments.</p>
+                    <p class="lead text-grey">Our optimized confuguration process saves your team time when running and scaling distributed applications, Al & machine learning workloads, hosted services, client websites, or CI/CD enviroments.</p>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                        <ul class="list-group">
+                        <ul class="list-group text-grey">
                             <li class="list-group-item my-li-item">Deploy</li>
                             <li class="list-group-item my-li-item">Manage</li>
                             <li class="list-group-item my-li-item">Secure</li>
@@ -144,22 +142,22 @@
                             <div class="col-md-6 h-200">
                                 <img src="img/cluster-deploy.svg" alt="">
                                 <h4><strong>Cluster deployments</strong></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis ratione, itaque enim iste repellat maxime amet libero nesciunt, reiciendis voluptatum! Deserunt alias possimus repellendus rerum dolores autem earum nam?</p>
+                                <p class="text-grey">Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
                             </div>
                             <div class="col-md-6 h-200">
                                 <img src="img/optimized-compute.svg" alt="">
                                 <h4><strong>Optimized compute types</strong></h4>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil est fugit saepe at dolorum facere, et aut veritatis dicta laudantium maiores architecto optio sapiente perspiciatis nesciunt odio non deserunt quasi?</p>
+                                <p class="text-grey">Get the computer rerources tou need with Standards or Optimized Droplets.</p>
                             </div>
                             <div class="col-md-6 h-200">
                                 <img src="img/one-click.svg" alt="">
                                 <h4><strong>One-click apps</strong></h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius obcaecati eaque repellat ducimus culpa! Asperiores tempore adipisci est illo aliquid in nobis! Quis reiciendis doloribus totam porro dolor dolores commodi.</p>
+                                <p class="text-grey">Skip the install and configuration process with pre-built open sources images supporting Rails, Cassandra, Docker, and more.</p>
                             </div>
                             <div class="col-md-6 h-200">
                                 <img src="img/global.svg" alt="">
                                 <h4><strong>Global availability</strong></h4>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, exercitationem id iure et sunt asperiores aperiam totam molestiae veritatis rerum praesentium quidem dicta doloribus amet. Ducimus ut laudantium adipisci doloribus.</p>
+                                <p class="text-grey">Deploy to any of our data center regions around the world.</p>
                             </div>
                         </div>
                     </div>
@@ -234,7 +232,7 @@
         </section>
 
         <!-- CUSTOMERS TAB -->
-        <section class="customer-section">
+        <section class="bg-blue">
             <div class="container">
                 <div class="text-center">
                     <h3 class="text-white"><strong>Service your customers around the world from 12 regions.</strong></h3>
@@ -352,13 +350,94 @@
             </div>
         </section>
 
-        <section></section>
-        <section></section>
+        <!-- GET STARTED -->
+        <section class="bg-blue">
+            <div class="center-block text-center">
+                <h3 class="text-white"><strong>Get started now.</strong></h3>
+                <a class="btn btn-default" href="#" role="button">Create your account</a>
+            </div>
+        </section>
     </main>
 
     
-    <footer>
-
+    <footer class="bg-darkblue">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 visible-element">
+                    <div>
+                        <img src="img/logo-small.svg" alt="logo">
+                    </div>
+                    <div>
+                        <span><strong>&copy; 2018 DigitalOcean, LLC. All rights reserved.</strong><br>Proudly made in NY</span>
+                        <div>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 visible-element">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3 visible-element">
+                            <ul>
+                                <li><strong>Company</strong></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Leadership</a></li>
+                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Partner Network</a></li>
+                                <li><a href="#">Referral Program</a></li>
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#">Press</a></li>
+                                <li><a href="#">Legal & Security</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-lg-3 visible-element">
+                            <ul>
+                                <li><strong>Products</strong></li>
+                                <li><a href="#">Droplets</a></li>
+                                <li><a href="#">Spaces</a></li>
+                                <li><a href="#">Kubernetes</a></li>
+                                <li><a href="#">Load Balancers</a></li>
+                                <li><a href="#">Block Storage</a></li>
+                                <li><a href="#">Tools & Integrations</a></li>
+                                <li><a href="#">One-Click Apps</a></li>
+                                <li><a href="#">API</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Documentation</a></li>
+                                <li><a href="#">Relase Notes</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-lg-3 visible-element">
+                            <ul>
+                                <li><strong>Community</strong></li>
+                                <li><a href="#">Tutorials</a></li>
+                                <li><a href="#">Meetups</a></li>
+                                <li><a href="#">Q&A</a></li>
+                                <li><a href="#">Write for Donations</a></li>
+                                <li><a href="#">Droplets for Demos</a></li>
+                                <li><a href="#">Hatch</a></li>
+                                <li><a href="#">Shop Swag</a></li>
+                                <li><a href="#">Research Program</a></li>
+                                <li><a href="#">Current Research</a></li>
+                                <li><a href="#">Open Source</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-lg-3 visible-element">
+                            <ul>
+                                <li><strong>Support</strong></li>
+                                <li><a href="#">Contact support</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Network Status</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
 </body>

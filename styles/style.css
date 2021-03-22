@@ -1,4 +1,5 @@
-main > section {
+main > section,
+footer {
     padding: 50px 0;
 }
 
@@ -7,7 +8,19 @@ main > section {
 }
 
 .text-grey {
-    color: #77839d;
+    color: #5c6a88;
+}
+
+.text-blue {
+    color: #006aff;
+}
+
+.text-lightblue {
+    color: #bbcdff;
+}
+
+.underline-on {
+    text-decoration: underline;
 }
 
 .bg-lightgrey {
@@ -16,6 +29,14 @@ main > section {
 
 .bg-white {
     background-color: white;
+}
+
+.bg-blue {
+    background-color: #003fbb;
+}
+
+.bg-darkblue {
+    background-color: #031c4e;
 }
 
 /* header */
@@ -35,11 +56,43 @@ main > section {
     color: #031c4e;
 }
 
+.my-icon-bar {
+    background-color: #589cff;
+}
+
+.my-nav-btn {
+    color: #589cff;
+    border: 1px solid #589cff;
+}
+
 /* hero section */
 .hero-section {
     background-image: url(../img/bg-banner-home.jpg);
     background-size: cover;
 }
+
+.hero-section h1 {
+    font-size: 55px;
+}
+
+.panel-body h3 {
+    line-height: 35px;
+}
+
+.panel-body p {
+    padding-top: 15px;
+}
+.my-hero-btn {
+    background-color: #589cff;
+    border: 1px solid #589cff;
+}
+
+.my-google-btn {
+    background-image: url(../img/google-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 
 /* logo banner */
 .my-logo-container {
@@ -62,6 +115,10 @@ main > section {
 .my-li-item:first-child,
 .my-li-item:last-child {
     border-radius: 0;
+}
+
+.section-2-text {
+    padding-bottom: 40px;
 }
 
 /* slider 1 */
@@ -115,10 +172,6 @@ main > section {
     padding: 0 20px;
 }
 
-/* customers */
-.customer-section {
-    background-color: #003fbb;
-}
 
 /* customers tab */
 .my-table tr:first-child>td {
@@ -127,6 +180,11 @@ main > section {
 
 .text-lightblue {
     color: #a7b9e4;
+}
+
+/* footer */
+footer ul {
+    list-style-type: none;
 }
 
 /* utility classes */
