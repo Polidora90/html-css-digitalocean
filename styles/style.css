@@ -101,10 +101,15 @@ footer {
 
 
 /* logo banner */
-.my-logo-container {
+
+.logo-list {
+    list-style-type: none;
+}
+
+.logo-list li {
     display: inline-block;
-    vertical-align: middle;
-    width: 45px;
+    width: calc(100% / 3);
+    padding: 5px;
 }
 
 /* deploy and scale */
@@ -302,17 +307,12 @@ footer ul a {
     vertical-align: top;
 }
 
-@media screen and (min-width: 480px) {
-    .my-logo-container {
-        width: 74px;
+@media screen and (min-width: 992px) {
+    .logo-list li {
+        width: auto;
     }
 }
-
-@media screen and (min-width: 768px) {
-    .my-logo-container {
-        width: 110px;
-    }
-}
+ 
 
 @media screen and (min-width: 1020px) {
     
@@ -322,9 +322,5 @@ footer ul a {
 
      .my-nav>li>a {
         padding: 10px 15px;
-    }
-
-    .my-logo-container {
-        width: 130px;
     }
 }
